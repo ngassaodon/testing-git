@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>FORMA || Formulaire d'Inscription</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <img src="./img/Group.png" alt="logo" id="logo" />
+        <div class="title">
+          <h2 class="logo1">FORMA</h2>
+          <span class="ideal">l'ideal pour reussir</span>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- main -->
+    <section>
+      <div class="group">
+        <div class="title-group">
+          <h1 class="title-group1">formulaire d'inscription</h1>
+        </div>
+        <div class="group-selection">
+          <div class="form">
+            <form action="https://formspree.io/f/xgebjwqj" method="POST">
+              <label for="name" class="label-control">nom(s)</label><br />
+              <input
+                type="text"
+                name="nom(s)"
+                id="name"
+                placeholder="veuillez entrer votre nom(s)"
+                required
+                class="input-control capital"
+              /><br />
+              <label for="prenom(s)" class="label-control">prenom(s)</label
+              ><br />
+              <input
+                type="text"
+                name="prenom(s)"
+                id="prenom(s)"
+                required
+                class="input-control capital"
+                placeholder="veuillez entrer votre prenom(s)"
+              /><br />
+              <label for="email" class="label-control">email</label><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="veuillez entrer votre adresse email"
+                required
+                class="input-control"
+              /><br />
+              <label for="tel" class="label-control"
+                >numero de telephone whatsapp avec l'indice du pays</label
+              ><br />
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="veuillez entrer votre numero de telephone"
+                required
+                class="input-control"
+              /><br />
+              <label for="country" class="label-control">pays</label><br />
+              <input
+                type="text"
+                name="pays"
+                id="country"
+                placeholder="veuillez entrer le nom de votre pays"
+                required
+                class="input-control capital"
+              /><br />
+              <label for="date" class="label-control">date de naissance</label
+              ><br />
+              <input
+                type="text"
+                name="date de naissance"
+                id="date"
+                placeholder="dd/mm/yyy"
+                required
+                class="input-control autre"
+              /><br />
+              <label for="precision" class="label-control"
+                >vous desirez participez a quel formation ?</label
+              ><br />
+              <input
+                type="checkbox"
+                name="precision"
+                class="precision"
+                id="precision"
+                value="Developpement Web"
+              /><span class="special-text">Developpement Web</span>
+              <input
+                type="checkbox"
+                name="precision"
+                class="precision"
+                id="precision"
+                value="maintenance informatique"
+              /><span class="special-text">maintenance informatique</span><br />
+              <input
+                type="checkbox"
+                name="precision"
+                class="precision"
+                id="precision"
+                value="bureautique"
+              /><span class="special-text">bureautique</span>
+              <input
+                type="checkbox"
+                name="precision"
+                id="precision"
+                class="precision"
+                value="webdisgn"
+              /><span class="special-text">webdisgn</span>
+              <br />
+              <label for="date-debut" class="label-control autre"
+                >vous voulez commencer la formation quand ?</label
+              ><br />
+              <input
+                type="text"
+                name="date-debut"
+                id="date-debut"
+                placeholder="dd/mm/yyyy"
+                required
+                class="input-control autre1"
+              />
+              <br />
+              <button type="submit" class="btn">s'inscrire</button>
+              <button type="reset" class="btn">annuler</button>
+            </form>
+          </div>
+          <div class="group-info">
+            <h4>
+              nous vous conctaterons sur whatsapp pour vous donner les
+              differentes informations.<br />
+              merci!
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="footer">
+      <p class="copyright">copyright &copy; 2023 tous droits resérvés</p>
+      <p class="contact">contact: +237 680751003 || +237 692321424</p>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
