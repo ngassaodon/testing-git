@@ -215,7 +215,7 @@ footer
 */
 .footer {
   width: 100%;
-  background: var(--clr-footer);
+  background: #3892;
   height: 100px;
   margin: 0 auto;
 }
